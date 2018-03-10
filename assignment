@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Danielle's GEOG 4046 Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+  </head>
+  <body>
+    <header id="masthead">
+      <a href="./">
+      </a>
+      <h1>Danielle's GEOG 4046 Portfolio</h1>
+      <h2 id="subtitle">A portfolio of accumulated projects and maps for Geography 4046</h2>
+      <img src = "https://www.xump.com/Images/Products/InflatableWorldGlobe-500A.jpg"
+      width="100" height ="100">
+    </header>
+    <hr>
+    <main>
+      <article>
+        <h3>
+  <img src = "BookAssignment1.png" width="200" height="150"/>
+          <a href="http://www.arcgis.com/apps/MapTour/index.html?appid=12d4305fdc6b40d59961031c40a93394">Book Assignment 1</a>
+        </h3>
+        <a href="a href="http://www.arcgis.com/apps/MapTour/index.html?appid=12d4305fdc6b40d59961031c40a93394">
+
+        </a>
+        <p>An interactive map showing some features around the greater Baton Rouge area. Those included are Louisiana State University, the USS Kid, and the previous state capitol.</p>
+        <h4>
+        <img src ="BookAssignment2.png" width="200" height="150"/>
+        <a href="http://www.arcgis.com/apps/View/index.html?appid=0a3c7b03b51442869d13ef1db755be7a">Book Assignment 2 </a>
+        </h4>
+        <a href="a href="http://www.arcgis.com/apps/View/index.html?appid=0a3c7b03b51442869d13ef1db755be7a"></a>
+        <p> A Web Map comparing population growth in the 50 top cities in the US through recent years. </p>
+        <h5>
+        <img src ="BookAssignment05.png" width="200" height="150"/>
+        <a href="https://lsuarc.maps.arcgis.com/apps/GeoForm/index.html?appid=e8c0fde853b541bb80d7a95e372bbb6c">Book Assignment 3a </a>
+        </h5>
+        <a href="a href="https://lsuarc.maps.arcgis.com/apps/GeoForm/index.html?appid=e8c0fde853b541bb80d7a95e372bbb6c"></a>
+        <p> A form to help members of the community report interest points around the Louisiana State University campus.</p>
+
+        <h6>
+        <img src = "BookAssignment3.png" width="200" height= "150"/>
+        <a href= "https://lsuarc.maps.arcgis.com/apps/webappviewer/index.html?id=0d888c61203f4b7d94cae31272b28676">Book Assignment 5</a>
+        </h6>
+        <a href="a href="https://lsuarc.maps.arcgis.com/apps/webappviewer/index.html?id=0d888c61203f4b7d94cae31272b28676">
+        </a>
+        <p> A Web Application showing various information of Louisiana Income such as median income per household, average size, and average salary per parish.</p>
+      </article>
+    </main>
+    <hr>
+    <footer>
+      &copy; 2016 GEOG 4046
+    </footer>
+  </body>
+</html>
