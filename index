@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GEOG 4046 Assignment Portfolio</title>
+  </head>
+  <body>
+    <img src="https://researchmaniacs.com/HTML-Code/Pictograms/Pictograms-Images/Earth-Globe-Europe-Africa.png">
+    <h1>GEOG 4046 Assignment Portfolio</h1>
+    <p>This is a collection of maps created for Geography 4046: Web GIS</p>
+    <a href="http://www.arcgis.com/apps/MapTour/index.html?appid=12d4305fdc6b40d59961031c40a93394">Book Assignment 1</a>
+    <p></p>
+    <p>
+    <a href="http://www.arcgis.com/apps/View/index.html?appid=0a3c7b03b51442869d13ef1db755be7a">Book Assignment 2
+    <img src ="http://www.arcgis.com/apps/View/index.html?appid=0a3c7b03b51442869d13ef1db755be7a"></a>
+     The top 50 US cities with the highest population growth from 2010 until July 2014.
+
+  </body>
+</html>
