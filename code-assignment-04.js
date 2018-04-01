@@ -28,3 +28,23 @@ let projectObject = {
 console.log(projectArray[2])
 console.log(projectObject.name)
 console.log(projectObject['name'])
+
+let project1 =
+{ number: 1
+title: Book Assignment 1
+hasThumbnail: true}
+let project2 = {
+  number: 2
+  title: Book Assignment 2
+  hasThumbnail: true
+}
+let project3=
+{ number:3
+title: Book Assignment 3
+hasThumbnail: true}
+
+let projects = [
+  project1,
+  project2,
+  project3
+]
