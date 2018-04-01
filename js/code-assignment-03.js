@@ -1,28 +1,14 @@
-let projectID = 1
-let projectTitle = "Map 1"
-let projectURL = "URL"
-let hasThumbnail = true
-let projectKeywords = ['web gis', 'earthquakes']
+let projectName = 'Book Assignment 1'
+let projectURL = "http://www.arcgis.com/apps/MapTour/index.html?appid=12d4305fdc6b40d59961031c40a93394"
+let projectInfo ='An interactive map to learn about the Baton Rouge area, along with other projects'
+let projectThumb = false
 
-let projectArray =[
-  1,
-  'http://www.arcgis.com/apps/View/index.html?appid=765b50d197f9486c910f13671d8eda5d',
-  Map of Recent Earthquakes',
-An ArcGIS Online Web App showing worldwide earthquakes of magnitude 2.5 or greater,
-true,
-[USGS, earthquakes, arcgis online]
-]
-
-let projectObject =
-{
-  id: 1,
-
-}
-
-console.log('ID:' +projectID)
-console.log('Title:' + projectTitle)
+console.log(projectName)
 console.log(projectURL)
-console.log(hasThumbnail)
-console.log(projectKeywords)
-console.log(projectArray[2]);
-console
+console.log(porjectInfo)
+console.log(projectThumb)
+
+console.log( 'Name: ' + projectName)
+console.log('URL: ' + projectURL)
+console.log('Information: ' + projectInfo)
+console.log('Has thumbnail? ' + projectThumb)
