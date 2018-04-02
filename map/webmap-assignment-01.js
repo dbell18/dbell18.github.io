@@ -1,5 +1,5 @@
 //let someName = L.map('your-map-div-id').setView([yourLat, yourLon], yourZoom)
-let mymap = L.map('mappicture').setView([30.4583, -91.1403], 13)
+let mymap = L.map('mappicture').setView([30.4583, -91.1403], 9)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}').addTo(mymap)
 let marker = L.marker([30.4117, -91.18425]).addTo(mymap)
 let polygon = L.polygon([
