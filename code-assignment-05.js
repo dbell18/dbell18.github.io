@@ -3,46 +3,18 @@ let projectURL = "http://www.arcgis.com/apps/MapTour/index.html?appid=12d4305fdc
 let projectInfo ='An interactive map to learn about the Baton Rouge area, along with other projects'
 let projectThumb = false
 
-console.log(projectName)
-console.log(projectURL)
-console.log(porjectInfo)
-console.log(projectThumb)
-
-console.log( 'Name: ' + projectName)
-console.log('URL: ' + projectURL)
-console.log('Information: ' + projectInfo)
-console.log('Has thumbnail? ' + projectThumb)
-
-
-let projectArray = [
-  projectName,
-  projectURL,
-  projectInfo
-]
-
-let projectObject = {
-  name: projectName,
-  url: projectURL,
-  info: projectInfo}
-
-console.log(projectArray[2])
-console.log(projectObject.name)
-console.log(projectObject['name'])
-
-let projectData = []
-
 let project1 =
-{ number: 1
-title: Book Assignment 1
-hasThumbnail: true}
+{ number: 1,
+  title: 'Book Assignment 1',
+  hasThumbnail: true}
 let project2 = {
-  number: 2
-  title: Book Assignment 2
+  number: 2,
+  title: 'Book Assignment 2',
   hasThumbnail: true
 }
 let project3=
-{ number:3
-title: Book Assignment 3
+{ number:3,
+title: 'Book Assignment 3',
 hasThumbnail: true}
 
 let projects = [
@@ -52,9 +24,9 @@ let projects = [
 ]
 
 for (let i = 0; i < projects.length; i++){
-  console.log('Index position' + i + 'name' + projectData[i].name)
-  if (projectData[i].thumb ===true) {
-    console.log('images'+ projectData[i].number + '.png')
+  console.log('Index position' + i + 'name' + projects[i].title)
+  if (projects[i].hasThumbnail ===true) {
+    console.log('BookAssignment'+ projects[i].number + '.png')
   }else{
     console.log('No images available')
   }

@@ -22,4 +22,3 @@ var latlngs = [
   [30.3892, -91.0879]
 ];
 var polyline = L.polyline (latlngs, {color: 'purple'}).addTo(mymap);
-map.fitBounds(polyline.getBounds());
