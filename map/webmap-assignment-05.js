@@ -42,7 +42,7 @@ function pageDecor (feature) {
   }
   return pageDecor
   }
-  function myPopup (feature, layer) {
+  function bubble (feature, layer) {
     let name = feature.properties.STATE_NAME
     let pop = feature.properties.POPULATION
     let male = feature.properties.MALES
@@ -50,10 +50,10 @@ function pageDecor (feature) {
     layer.bindPopup('Population of ' + name + ':' + pop + '<br>National Median of Population: 6174910' + '<br>Number of males in ' + name + ':' + male + '<br>Number of females in ' + name + ':' + female)
 
   }
-  let myOptions = {
+  let choices = {
     style: pageDecor,
-    onEachFeature: myPopup
+    onEachFeature: bubble
   }
-  L.geoJSON(coordinates, myOptions).addTo(thismap)
+  L.geoJSON(coordinates, choices).addTo(thismap)
 }
 mappicture()
