@@ -1,9 +1,9 @@
 function mappicture () {
-let mymap = L.map('mappicture').setView([39, -98], 3)
-mymap.on('click', function (event) {
+let thismap = L.map('mappicture').setView([39, -98], 3)
+thismap.on('click', function (event) {
   console.log('You clicked the map at ' + event.latlng)
 })
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}').addTo(mymap)//new name
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}').addTo(thismap)//new name
 //let stateDemographics = {Luke's coords or not (put it in another file by right clicking map folder, new file
 //.js in the new file you can do the let = whatever and paste in the Geojson)}
 function pageDecor (feature) {
@@ -34,7 +34,7 @@ function pageDecor (feature) {
     style: pageDecor,
     onEachFeature: myPopup
   }
-  L.geoJSON(coordinates, myOptions).addTo(mymap)
+  L.geoJSON(coordinates, myOptions).addTo(thismap)
 }
 mappicture()
 

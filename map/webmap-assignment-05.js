@@ -1,5 +1,5 @@
-let mymap = L.map('mappicture').setView([39, -98], 4)
-let topography = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}').addTo(mymap)
+let thismap = L.map('mappicture').setView([39, -98], 4)
+let topography = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}').addTo(thismap)
 let night = L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
 	attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
 	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
@@ -17,10 +17,10 @@ let diffMaps = {
   'Nature map': nature
 }
 
-L.control.layers(diffMaps).addTo(mymap)
+L.control.layers(diffMaps).addTo(thismap)
 //in the inndex script src = "stateDemographics.js"
 function mappicture () {
-mymap.on('click', function (event) {
+thismap.on('click', function (event) {
   console.log('You clicked the map at ' + event.latlng)
 })
 //new name
@@ -54,6 +54,6 @@ function pageDecor (feature) {
     style: pageDecor,
     onEachFeature: myPopup
   }
-  L.geoJSON(coordinates, myOptions).addTo(mymap)
+  L.geoJSON(coordinates, myOptions).addTo(thismap)
 }
 mappicture()
